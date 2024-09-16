@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 30px; 
+    justify-content: center;
+    
+    padding-left: 0;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: #495057;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 10px;
+ 
+}
+.H1{
+   
+    text-align: center;
+    padding: 0 100px;
+    /* width: 1000px;
+    border: 1px solid black;
+    margin: 0 auto; */
+}
+
+h1{
+    font-weight:300 ;
+    color: #a3b18a;
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+}
+
+.container{
+    
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: .8px;
+  display: flex;
+  padding: 0 100px;
+  color: black;
+  line-height: 25px;
+  justify-content: center;
+ 
+  padding-bottom: 100px;
+  
+  
+}
+.body{
+    width: 700px;
+}
+.footer-link{
+    padding-left: 100px;
+}
+.container h2{
+    font-weight: 400;
+    font-size: 30px;
+    color: #34495e;
+    padding-bottom: 30px;
+}
+.footer{
+    font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: .8px;
+
+  text-align: center;
+ 
+}
+.bottom .memes{
+    
+    padding-bottom: 20px;
+
+}
+
+
+
+@media(max-width:576px){
+    h1{
+        font-size: 40px;
+
+    }
+    .H1{
+        padding: 0 50px;
+    }
+    .container{
+        flex-direction: column;
+        padding: 0 50px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .bottom{
+        text-align: center;
+    }
+    .body{
+        width: 100%;
+    }
+    .footer-link{
+        padding-left: 0;
+    }
+    .footer-link h2{
+        padding-bottom: 0;
+    }
+
+}
+
+@media(min-width:577px) and (max-width:768px){
+    h1{
+        font-size: 45px;
+    }
+    .H1{
+        padding: 0 50px;
+    }
+    .container{
+        flex-direction: column;
+        padding: 0 50px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .bottom{
+        text-align: center;
+    }
+    .body{
+        width: 100%;
+    }
+    .footer-link{
+        padding-left: 0;
+    }
+    .footer-link h2{
+        padding-bottom: 0;
+    }
+
+}
+@media(min-width:769px) and (max-width:992px){
+    h1{
+        font-size: 50px;
+    }
+    .H1{
+        padding: 0 50px;
+       
+        
+    }
+    .container{
+        flex-direction: column;
+        padding: 0 50px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .bottom{
+        text-align: center;
+    }
+    .body{
+        width: 100%;
+    }
+    .footer-link{
+        padding-left: 0;
+    }
+    .footer-link h2{
+        padding-bottom: 0;
+    }
+
+
+}
+
+@media(min-width:993px) and (max-width:1200px){
+    
+    .bottom{
+        text-align: center;
+    }
+    .container{
+        padding: 0 180px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+ 
